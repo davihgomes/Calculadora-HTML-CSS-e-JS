@@ -30,8 +30,9 @@ body{
     align-items: center;
     padding: 35px 32px;
     background-color: var(--background-calc);
-    height: 660px;
-    width: 560px;
+    max-height: 660px;
+    max-width: 560px;
+    width: 80%;
     border-radius: 20px;
 }
 
@@ -42,7 +43,8 @@ body{
     align-items: center;
     background-color: var(--background-elements);
     height: 107px;
-    width: 492px;
+    max-width: 492px;
+    width: 100%;
     border-radius: 10px;
     padding-right: 20px;
     font-size: 50px;
@@ -56,7 +58,7 @@ body{
     justify-content: center;
     height: 443px;
     max-width: 423px;
-    width: auto;
+    width: 100%;
     border-radius: 10px;
     margin-top: 20px;
 }
@@ -91,4 +93,16 @@ body{
     background-color: var(--color-buttons);
     color: white;
     cursor: pointer;
+}
+
+@media (max-width: 450px) {
+    .calcContainer{
+        height: 500px;
+
+    }
+    .buttons button{
+        font-size: 30px;
+        width: 46px;
+        height: 46px;
+    }
 }
