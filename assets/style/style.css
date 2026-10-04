@@ -30,8 +30,8 @@ body{
     align-items: center;
     padding: 35px 32px;
     background-color: var(--background-calc);
-    height: 400px;
-    width: 360px;
+    height: 660px;
+    width: 560px;
     border-radius: 20px;
 }
 
@@ -41,29 +41,31 @@ body{
     justify-content: flex-end;
     align-items: center;
     background-color: var(--background-elements);
-    height: 60px;
-    width: 300px;
+    height: 107px;
+    width: 492px;
     border-radius: 10px;
     padding-right: 20px;
-    font-size: 2rem;
+    font-size: 50px;
 }
 
 .buttons{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 4fr 1fr;
     background-color: var(--background-elements);
-    height: 250px;
-    width: 260px;
+    align-items: center;
+    justify-content: center;
+    height: 443px;
+    max-width: 423px;
+    width: auto;
     border-radius: 10px;
     margin-top: 20px;
-    padding: 20px;
 }
 
 .leftGrid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: auto;
     margin: 0 auto;
+    gap: 20px;
 }
 
 .leftGrid button{
@@ -76,13 +78,16 @@ body{
     justify-content: center;
     width: auto;
     margin: 0 auto;
+    padding-right: 20px;
+    gap: 20px;
 }
 
 .buttons button{
-    width: 45px;
-    height: 45px;
+    width: 76px;
+    height: 76px;
     border-radius: 50%;
     border: none;
+    font-size: 40px;
     background-color: var(--color-buttons);
     color: white;
     cursor: pointer;
