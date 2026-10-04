@@ -96,9 +96,20 @@ body{
 }
 
 @media (max-width: 450px) {
+    .leftGrid{
+        gap: 10px;
+        padding-left: 20px;
+    }
+
+    .buttons{
+        height: 300px;
+    }
+
+    .rightGrid{
+        gap: 10px;
+    }
     .calcContainer{
         height: 500px;
-
     }
     .buttons button{
         font-size: 30px;
